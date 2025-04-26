@@ -2,6 +2,8 @@ version: 2
 
 sources:
   - name: tpch
+    database: dev_bronze_db
+    schema: TPCH
     tables:
       - name: customer
         columns:
